@@ -74,7 +74,7 @@ def predict():
 
     # ✅ ส่ง JSON และให้ Node-RED ดาวน์โหลดภาพแยกต่างหาก
     return jsonify({
-        "image_url": "http://127.0.0.1:5000/image",  # URL สำหรับดาวน์โหลดภาพ
+        "image_url": "https://yolo-ldh8.onrender.com/image",  # URL สำหรับดาวน์โหลดภาพ
         "detected_objects": detected_objects
     })
 
